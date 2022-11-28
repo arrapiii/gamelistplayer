@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.kontener{
+    background:linear-gradient(20deg, rgb(180, 2, 35), rgb(7, 7, 146));
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.kontener .heading{
+    text-align: left;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.kontener .headingg{
+    margin-left: 1%;
+    text-align: left;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.kontener .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+    margin-top: 50px;
+}
+
+.kontener .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 25px;
+    background: #1A1A1B;
+    text-align: center;
+    padding:50px 20px;
+    margin: 50px 30px;
+    height: 70%;
+}
+
+.kontener .box-container .box img{
+    /* position: relative; */
+    /* margin-left: -60px; */
+    margin-top: -80px;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.kontener .box-container .box h3{
+    color: white;
+    font-size: 25px;
+    padding:10px 0;
+}
+
+.kontener .box-container .box h2{
+    color: white;
+    /* font-size: 22px; */
+    padding:10px 0;
+    scale: 150%;
+    
+}
+
+.kontener .box-container .box h2 span{
+    color: white;
+    font-size: 38px;
+    padding:10px 0;
+    scale: 150%;
+    
+}
+
+.kontener .box-container .box p{
+    color: yellow;
+    font-size: 18px;
+    line-height: 1.8;
+    scale: 150%;
+}
+
+.kontener .box-container .box .btn{
+    position: relative;
+    top: 5%;
+    margin-left: 95%;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 3px blue solid;
+    padding: 5px 15px;
+}
+
+.kontener .box-container .box .btn:hover{
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.kontener .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .kontener{
+        padding:20px;
+    }
+}
